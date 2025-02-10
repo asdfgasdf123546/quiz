@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+int PyramidVolume(int L, int w, int h);
+
+
+int main() {
+	cout << PyramidVolume(5,10,6);
+
+}
+
+//definition
+int PyramidVolume(int L, int w, int h) {
+	return (L * w * h)/3;
+}
